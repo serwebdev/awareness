@@ -53,26 +53,9 @@ const swiper = new Swiper('.swiper', {
   // Добавить (в пикселях) дополнительное смещение слайда в начале контейнера (перед всеми слайдами)
   // slidesOffsetBefore: 100,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-    // Строка с типом разбиения на страницы. Может быть 'bullets', 'fraction' или 'progressbar' 'custom'
-    // type: "bullets",
-  },
-
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-    // Размер перетаскиваемого элемента полосы прокрутки в пикселях
-    // dragSize: "auto",
-    // Установите, true чтобы сделать полосу прокрутки перетаскиваемой, что позволяет вам управлять положением ползунка
-    // draggable: false,
   },
 });
